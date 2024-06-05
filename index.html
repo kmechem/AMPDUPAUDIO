@@ -54,45 +54,32 @@
 	
 
 	<!-- Header start -->
-	<header class="site-header mo-left header style-3 header-transparent">		
+	<header class="site-header mo-left header header-text-white header-transparent style-1 border-white">					
 		<!-- Main Header -->
-		<div class="sticky-header main-bar-wraper">
+		<div class="sticky-header main-bar-wraper navbar-expand-lg">
 			<div class="main-bar clearfix">
-				<div class="container-fluid clearfix">
-
+				<div class="container-fluid clearfix d-lg-flex d-block">
 					<!-- Website Logo -->
-					<div class="logo-header me-5 logo-header">
-						<a href="index.html" class="logo-dark tabindex"><img src="assets/images/custom/ampdupaudio-logo2.png" alt="/"></a>
-						<a href="index.html" class="logo-white tabindex"><img src="assets/images/custom/ampdupaudio-logo2.png" alt="/"></a>
+					<div class="logo-header mostion">
+						<a href="index.html" class="logo-dark"><img src="assets/images/logo.png" alt="/"></a>
+						<a href="index.html" class="logo-white"><img src="assets/images/logo-white.png" alt="/"></a>
 					</div>
-					<!-- EXTRA NAV -->
-					<div class="extra-nav">
-						<div class="extra-cell">						
-							<ul class="header-right">
-								<li class="nav-item">
-									<!-- Nav Toggle Button -->
-									<div class="d-flex align-items-center">
-										<span class="m-r15 menu-text">Menu</span>	
-										<button class="menu-nav-btn collapsed navicon justify-content-end tabindex" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-											<span></span>
-											<span></span>
-											<span></span>
-										</button>
-									</div>
-								</li>
-							</ul>
+					
+					<!-- Nav Toggle Button -->
+					<button class="navbar-toggler collapsed navicon justify-content-end" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+						<span></span>
+						<span></span>
+						<span></span>
+					</button>
+					
+				
+					<!-- Main Nav -->
+					<div class="header-nav navbar-collapse collapse justify-content-center" id="navbarNavDropdown">
+						<div class="logo-header">
+							<a href="index.html" class="logo-dark"><img src="assets/images/logo.png" alt="/"></a>
 						</div>
-					</div>					
-				</div>
-			</div>
-		</div>		
-	</header>
-	<div class="header-menu navbar-collapse collapse" id="navbarNavDropdown">	
-		<div class="row h-100">
-			<div class="col-lg-3">
-				<div class="header-nav h-100  nav-dark">
-					<ul class="nav navbar-nav dark-nav">
-							<li class="has-mega-menu sub-menu-down active">
+						<ul class="nav navbar-nav dark-nav">
+							<li class="has-mega-menu sub-menu-down">
 								<a href="javascript:void(0);"><span>Home</span><i class="fas fa-chevron-down tabindex"></i></a>
 								<div class="mega-menu demo-menu">
 									<div class="row"> 
@@ -301,10 +288,177 @@
 							</li>
 							<li><a href="contact-us.html"><span>Contact Us</span></a></li>
 						</ul>
+						<div class="dz-social-icon">
+							<ul>
+								<li><a target="_blank" href="https://www.facebook.com/dexignzone"><i class="fab fa-facebook-f"></i></a></li>
+								<li><a target="_blank" href="https://twitter.com/dexignzones"><i class="fab fa-twitter"></i></a></li>
+								<li><a target="_blank" href="https://www.linkedin.com/showcase/3686700/admin/"><i class="fab fa-linkedin-in"></i></a></li>
+								<li><a target="_blank" href="https://www.instagram.com/dexignzone/"><i class="fab fa-instagram"></i></a></li>
+							</ul>
+						</div>
+					</div>
+
+					<!-- EXTRA NAV -->
+					<div class="extra-nav">
+						<div class="extra-cell">						
+							<ul class="header-right">
+								<li class="nav-item search-link">
+									<a class="nav-link"  href="javascript:void(0);" data-bs-toggle="offcanvas" data-bs-target="#offcanvasTop" aria-controls="offcanvasTop">
+										<i class="fa-solid fa-magnifying-glass"></i>
+									</a>
+								</li>
+								<li class="nav-item menu-btn">
+									<a href="javascript:void(0);">
+										<svg xmlns="http://www.w3.org/2000/svg" width="35" height="35" viewBox="0 0 35 35" fill="none">
+										<path d="M2.91406 7.29134C2.91406 6.48488 3.5674 5.83301 4.3724 5.83301H23.3307C24.1357 5.83301 24.7891 6.48488 24.7891 7.29134C24.7891 8.0978 24.1357 8.74967 23.3307 8.74967H4.3724C3.5674 8.74967 2.91406 8.0978 2.91406 7.29134ZM30.6224 16.0413H4.3724C3.5674 16.0413 2.91406 16.6932 2.91406 17.4997C2.91406 18.3061 3.5674 18.958 4.3724 18.958H30.6224C31.4274 18.958 32.0807 18.3061 32.0807 17.4997C32.0807 16.6932 31.4274 16.0413 30.6224 16.0413ZM17.4974 26.2497H4.3724C3.5674 26.2497 2.91406 26.9016 2.91406 27.708C2.91406 28.5145 3.5674 29.1663 4.3724 29.1663H17.4974C18.3024 29.1663 18.9557 28.5145 18.9557 27.708C18.9557 26.9016 18.3024 26.2497 17.4974 26.2497Z" fill="#000"/>
+										</svg>
+									</a>
+								</li>
+							</ul>
+						</div>
+					</div>
 				</div>
 			</div>
 		</div>
-	</div>
+		<!-- Main Header End -->
+		<!-- SearchBar -->
+		<div class="dz-search-area dz-offcanvas offcanvas offcanvas-top" tabindex="-1" id="offcanvasTop">
+			<button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close">
+				&times;
+			</button>
+			<div class="container">
+				<form class="header-item-search">
+					<div class="input-group search-input">
+						<select class="default-select">
+							<option>All Categories</option>
+							<option>Headphone</option>
+							<option>Music Player</option>
+							<option>Leather jacket</option>
+							<option>Cap</option>
+						</select>
+						<input type="text" class="form-control" aria-label="Text input with dropdown button" placeholder="Search Product">
+						<button class="btn" type="button">
+							<svg xmlns="http://www.w3.org/2000/svg" width="17" height="17" viewBox="0 0 17 17" fill="none">
+							<g clip-path="url(#clip0_1362_3437)">
+								<path d="M16.4562 15.4843L12.4102 11.2762C13.4505 10.0396 14.0205 8.48359 14.0205 6.86374C14.0205 3.07913 10.9413 0 7.15671 0C3.3721 0 0.292969 3.07913 0.292969 6.86374C0.292969 10.6484 3.3721 13.7275 7.15671 13.7275C8.57751 13.7275 9.93145 13.299 11.089 12.4854L15.1658 16.7255C15.3362 16.9024 15.5654 17 15.811 17C16.0435 17 16.264 16.9114 16.4314 16.7502C16.7871 16.4079 16.7985 15.8403 16.4562 15.4843ZM7.15671 1.79054C9.95413 1.79054 12.2299 4.06632 12.2299 6.86374C12.2299 9.66117 9.95413 11.9369 7.15671 11.9369C4.35929 11.9369 2.08351 9.66117 2.08351 6.86374C2.08351 4.06632 4.35929 1.79054 7.15671 1.79054Z" fill="#000"/>
+							</g>
+							<defs>
+								<clipPath id="clip0_1362_3437">
+								<rect width="17" height="17" fill="white"/>
+								</clipPath>
+							</defs>
+							</svg>
+						</button>
+					</div>
+					<ul class="recent-tag">
+						<li class="pe-0"><span>Quick Search :</span></li>
+						<li><a href="shop-cart.html">Music Player</a></li>
+						<li><a href="shop-cart.html">Leather jacket</a></li>
+						<li><a href="shop-cart.html">Headphone</a></li>
+						<li><a href="shop-cart.html">Cap</a></li>
+					</ul>
+				</form>
+				<div class="row">
+					<div class="col-xl-12">
+						<h5 class="mb-3">You May Also Like</h5>
+						<div class="swiper category-swiper2">
+							<div class="swiper-wrapper">
+								<div class="swiper-slide">
+									<div class="shop-card">
+										<div class="dz-media">
+											<img src="assets/images/shop/product/pic1.png" alt="image">
+										</div>
+										<div class="dz-content">
+											<h6 class="title"><a href="shop-cart.html">Headphone</a></h6>
+											<h6 class="price">$40.00</h6>
+										</div>
+									</div>
+								</div>
+								<div class="swiper-slide">
+									<div class="shop-card">
+										<div class="dz-media">
+											<img src="assets/images/shop/product/pic2.png" alt="image">
+										</div>
+										<div class="dz-content">
+											<h6 class="title"><a href="shop-cart.html">Headphone</a></h6>
+											<h6 class="price">$30.00</h6>
+										</div>
+									</div>
+								</div>
+								<div class="swiper-slide">
+									<div class="shop-card">
+										<div class="dz-media">
+											<img src="assets/images/shop/product/pic3.png" alt="image">
+										</div>
+										<div class="dz-content">
+											<h6 class="title"><a href="shop-cart.html">Music Player</a></h6>
+											<h6 class="price">$35.00</h6>
+										</div>
+									</div>
+								</div>
+								<div class="swiper-slide">
+									<div class="shop-card">
+										<div class="dz-media">
+											<img src="assets/images/shop/product/pic4.png" alt="image">
+										</div>
+										<div class="dz-content">
+											<h6 class="title"><a href="shop-cart.html">Leather jacket</a></h6>
+											<h6 class="price">$20.00</h6>
+										</div>
+									</div>
+								</div>
+								<div class="swiper-slide">
+									<div class="shop-card">
+										<div class="dz-media">
+											<img src="assets/images/shop/product/pic5.png" alt="image">
+										</div>
+										<div class="dz-content">
+											<h6 class="title"><a href="shop-cart.html">Headphone</a></h6>
+											<h6 class="price">$70.00</h6>
+										</div>
+									</div>
+								</div>
+								<div class="swiper-slide">
+									<div class="shop-card">
+										<div class="dz-media">
+											<img src="assets/images/shop/product/pic6.png" alt="image">
+										</div>
+										<div class="dz-content">
+											<h6 class="title"><a href="shop-cart.html">Headphone</a></h6>
+											<h6 class="price">$45.00</h6>
+										</div>
+									</div>
+								</div>
+								<div class="swiper-slide">
+									<div class="shop-card">
+										<div class="dz-media">
+											<img src="assets/images/shop/product/pic7.png" alt="image">	
+										</div>
+										<div class="dz-content">
+											<h6 class="title"><a href="shop-cart.html">Cap</a></h6>
+											<h6 class="price">$40.00</h6>
+										</div>
+									</div>
+								</div>
+								<div class="swiper-slide">
+									<div class="shop-card">
+										<div class="dz-media">
+											<img src="assets/images/shop/product/pic8.png" alt="image">	
+										</div>
+										<div class="dz-content">
+											<h6 class="title"><a href="shop-cart.html">Headphone</a></h6>
+											<h6 class="price">$60.00</h6>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- SearchBar -->
+	</header>
 	
 	<!-- Main Header End -->
 
