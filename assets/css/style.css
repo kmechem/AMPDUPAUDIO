@@ -65,10 +65,10 @@
 @import url("../icons/feather/css/iconfont.css");
 @import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
 :root {
-  --primary: #FF421D;
+  --primary: #ef0101;
   --secondary: #222222;
   --gray: #F4F5F7;
-  --primary-hover: #e92600;
+  --primary-hover: #ef0101;
   --primary-dark: #831500;
   --rgba-secondary-1: rgba(34, 34, 34, 0.1);
   --rgba-primary-1: rgba(255, 66, 29, 0.1);
@@ -22614,7 +22614,7 @@ ul a.rsswidget {
   top: 0;
   writing-mode: tb-rl;
   transform: rotate(180deg);
-  background: #fff;
+  background: #124E73;
   z-index: 999;
   padding: 0 45px; }
   @media only screen and (max-width: 1480px) {
