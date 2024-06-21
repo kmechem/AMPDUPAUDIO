@@ -9634,7 +9634,8 @@ strong,
 
 .content-inner-3 {
   padding-top: 60px;
-  padding-bottom: 30px; }
+  padding-bottom: 30px;
+background: #124E73; }
   @media only screen and (max-width: 991px) {
     .content-inner-3 {
       padding-top: 50px;
