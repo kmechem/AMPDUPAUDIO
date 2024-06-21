@@ -13030,7 +13030,7 @@ a {
   top: 0;
   left: 0;
   box-shadow: 0 0 50px 0 rgba(0, 0, 0, 0.1);
-  background: #fff;
+  background: #124E73;
   transition: all 0.5s; }
   .is-fixed .main-bar .search-link a > i {
     color: var(--title) !important; }
