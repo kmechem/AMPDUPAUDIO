@@ -65,10 +65,10 @@
 @import url("../icons/feather/css/iconfont.css");
 @import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
 :root {
-  --primary: #ef0101;
+  --primary: #ec0012;
   --secondary: #222222;
   --gray: #F4F5F7;
-  --primary-hover: #ef0101;
+  --primary-hover: #ec0012;
   --primary-dark: #831500;
   --rgba-secondary-1: rgba(34, 34, 34, 0.1);
   --rgba-primary-1: rgba(255, 66, 29, 0.1);
@@ -88,7 +88,7 @@
 
 [data-color="color_1"] {
   /* Primary */
-  --primary: #FF421D;
+  --primary: #ec0012;
   --primary-hover:#D01266;
   --primary-dark: #D01266;
   /* Primary RGBA */
@@ -24833,6 +24833,7 @@ background: white;
     font-weight: 400; }
   .icon-bx-wraper.style-2 .icon-content .title {
     font-size: 26px;
+    color: #ec0012;
     font-weight: 500; }
   .icon-bx-wraper.style-2:hover, .icon-bx-wraper.style-2.active {
     transform: translateY(-10px); background: #fef200; }
