@@ -24796,7 +24796,9 @@ ul a.rsswidget {
   transition: all 0.5s;
   padding: 30px;
   overflow: hidden;
-  border: 1px solid #AEAEAE; }
+  border: 1px solid #AEAEAE;
+background: white;
+}
   .icon-bx-wraper.style-2 .effect {
     position: absolute;
     display: block;
@@ -24833,7 +24835,7 @@ ul a.rsswidget {
     font-size: 26px;
     font-weight: 500; }
   .icon-bx-wraper.style-2:hover, .icon-bx-wraper.style-2.active {
-    transform: translateY(-10px); }
+    transform: translateY(-10px); background: #fef200; }
     .icon-bx-wraper.style-2:hover .icon-bx, .icon-bx-wraper.style-2.active .icon-bx {
       background: #fff; }
       .icon-bx-wraper.style-2:hover .icon-bx .icon-cell i, .icon-bx-wraper.style-2.active .icon-bx .icon-cell i {
