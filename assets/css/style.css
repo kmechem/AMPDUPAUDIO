@@ -9624,7 +9624,9 @@ strong,
 
 .content-inner-2 {
   padding-top: 100px;
-  padding-bottom: 0; }
+  padding-bottom: 0;
+  background: #124E73;
+ }
   @media only screen and (max-width: 991px) {
     .content-inner-2 {
       padding-top: 70px; } }
@@ -11660,6 +11662,7 @@ section {
 
 .section-head {
   margin-bottom: 40px;
+  color: white;
   position: relative;
   margin-left: auto;
   margin-right: auto; }
@@ -32636,3 +32639,7 @@ body .working-location {
       padding: 30px 15px 30px; } }
 
 /*# sourceMappingURL=style.css.map */
+
+#services{
+  background: #124E73;
+}
