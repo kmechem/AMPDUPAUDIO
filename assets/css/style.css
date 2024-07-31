@@ -25107,7 +25107,11 @@ background: white;
     transition: all 0.5s;
     position: relative; }
   .dz-team .dz-media img {
-    width: 100%; }
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+  }
   .dz-team .dz-position {
     display: block; }
 
@@ -25208,7 +25212,8 @@ background: white;
   overflow: hidden; }
   .dz-team.style-2 .dz-media {
     position: relative;
-    z-index: 1; }
+    z-index: 1;
+    height:370px; }
     .dz-team.style-2 .dz-media .view-btn {
       position: absolute;
       bottom: 0;
