@@ -12473,6 +12473,7 @@ a {
     .header-nav .nav > li {
       margin: 0px;
       font-weight: 400;
+      text-transform: capitalize;
       position: relative; }
       .header-nav .nav > li.has-mega-menu {
         position: inherit; }
@@ -24834,6 +24835,7 @@ background: white;
   .icon-bx-wraper.style-2 .icon-content .title {
     font-size: 26px;
     color: #ec0012;
+    text-transform: capitalize;
     font-weight: 500; }
   .icon-bx-wraper.style-2:hover, .icon-bx-wraper.style-2.active {
     transform: translateY(-10px); background: #fef200; }
@@ -32658,4 +32660,8 @@ body .working-location {
 
 .contact-right a{
   color: #fff;
+}
+
+.icon-content li{
+  text-transform: capitalize;
 }
