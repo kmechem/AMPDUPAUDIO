@@ -82,7 +82,7 @@
   --rgba-primary-9: rgba(255, 66, 29, 0.9);
   --border-radius-base: 0px;
   --font-family-base: Poppins, sans-serif;
-  --font-family-title: mariyam, sans-serif;
+  --font-family-title: Poppins, sans-serif;
   --font-family-standard: Tomato Grotesk, sans-serif;
   --title: #222222; }
 
@@ -13014,7 +13014,7 @@ a {
   .header-transparent .navbar-toggler span {
     background: #fff; }
   .header-transparent .is-fixed .nav > li > a {
-    color: #fef200; }
+    color: #fff; }
   .header-transparent .is-fixed .extra-nav .extra-cell .login-link {
     color: var(--title); }
   .header-transparent .is-fixed .extra-nav .extra-cell .header-right .nav-item svg path, .header-transparent .is-fixed .extra-nav .extra-cell .header-right .nav-item circle {
