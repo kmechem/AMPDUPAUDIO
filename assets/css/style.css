@@ -22547,7 +22547,7 @@ ul a.rsswidget {
       bottom: 0;
       right: 0;
       background-size: cover;
-      background-image: url(../images/banner/bnr1.png);
+      
       backdrop-filter: brightness(0.5); }
     .main-bnr-one .banner-inner .banner-content {
       position: relative;
