@@ -11717,6 +11717,7 @@ section {
   .section-head.style-1 {
     margin-bottom: 35px; }
     .section-head.style-1 .sub-title {
+      text-transform: capitalize;
       background: var(--gradient);
       background-clip: text;
       -webkit-background-clip: text;
