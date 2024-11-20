@@ -108,7 +108,7 @@
   --theme-text-color: #fff;
   --secondary: #222222;
   --title: #222222;
-  --bg-light: #124E73; }
+  --bg-light: #052A59; }
   [data-color="color_1"] .about-box.style-5:after {
     background-image: url('data:image/svg+xml,<svg width="302" height="261" viewBox="0 0 302 261" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M199.841 68.6682L294.102 1.61821C297.412 -0.736508 302 1.63019 302 5.69257V256C302 258.761 299.761 261 297 261H5.36977C1.01869 261 -1.2561 255.827 1.68478 252.621L69.5546 178.615C70.179 177.935 70.9799 177.44 71.8683 177.187L169.499 149.343C171.084 148.891 172.345 147.686 172.869 146.123L197.999 71.1535C198.335 70.1511 198.98 69.281 199.841 68.6682Z" fill="url(%23paint0_linear_48_951)"/><defs><linearGradient id="paint0_linear_48_951" x1="-41.6632" y1="167.698" x2="7.18405" y2="-53.667" gradientUnits="userSpaceOnUse"><stop stop-color="%23FF421D"/><stop offset="1" stop-color="%23D01266"/></linearGradient></defs></svg>'); }
 
